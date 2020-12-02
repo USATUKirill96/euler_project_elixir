@@ -13,12 +13,12 @@ defmodule Problem1 do
     execute(number - 1 , 0)
   end
 
-
+  @spec execute(integer, integer) :: integer
   defp execute(0, counter) do
     counter
   end
 
-  @spec execute(integer, integer) :: integer
+
   defp execute(number, counter) do
     cond do
       rem(number, 3) == 0 or rem(number, 5) == 0 -> execute(number - 1, counter + number )
