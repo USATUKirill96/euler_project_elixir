@@ -9,12 +9,13 @@ defmodule Problem1 do
       233168
   """
   @spec execute(integer) :: integer
-  def execute(number) do
+  def execute(number) when number >= 0 do
     execute(number - 1 , 0)
   end
 
   @spec execute(integer, integer) :: integer
   defp execute(0, counter) do
+    # edge case when the program finishes
     counter
   end
 
