@@ -22,7 +22,8 @@ defmodule EulerProject.MixProject do
   defp deps do
     [
 
-      {:ex_doc, "~> 0.21", only: :dev, runtime: false}
+      {:ex_doc, "~> 0.21", only: :dev, runtime: false},
+      {:dialyxir, "~> 0.4", only: [:dev]}
     ]
   end
 end
