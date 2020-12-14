@@ -3,4 +3,5 @@ defmodule EulerProjectTest do
   doctest Problem1
   doctest Problem2
   doctest Problem3
+  doctest Problem4
 end
