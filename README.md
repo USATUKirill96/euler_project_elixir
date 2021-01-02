@@ -18,3 +18,4 @@
 1. [Четные числа Фибоначчи](lib/euler_project/problem_2.ex)
 1. [Наибольший простой делитель](lib/euler_project/problem_3.ex)
 1. [Наибольшее произведение-палиндром](lib/euler_project/problem_4.ex)
+1. [Наименьшее кратное](lib/euler_project/problem_5.ex)

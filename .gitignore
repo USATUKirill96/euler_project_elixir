@@ -25,3 +25,7 @@ euler_project-*.tar
 # IDE
 /.vscode/
 
+# Local
+
+/lib/euler_project/example.ex
+
