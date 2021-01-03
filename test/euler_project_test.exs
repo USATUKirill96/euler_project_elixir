@@ -6,4 +6,5 @@ defmodule EulerProjectTest do
   doctest Problem4
   doctest Problem5
   doctest Problem6
+  doctest Problem7
 end
