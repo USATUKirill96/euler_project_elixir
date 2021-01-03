@@ -36,6 +36,7 @@ defmodule Problem5 do
 
   @spec least_common_multiple([integer], integer) :: integer
   def least_common_multiple([head|tail], multiplier) do
+    # Math formula looks like lcm(a, b) = a * b / lcd(a, b)
     divisor = least_common_divisor(head, multiplier)
     new_multiplier = div(head * multiplier, divisor)
     least_common_multiple(tail, new_multiplier)
@@ -46,6 +47,14 @@ defmodule Problem5 do
     multiplier
   end
 
+
+  @doc """
+  example for 30 and 18:
+  remainder(30, 18) = 12
+  remainder(18, 12) = 6
+  remainder(12, 6) = 0
+  so the lcd for 30 and 18 is 6
+  """
   @spec least_common_divisor(integer, integer) :: integer
   def least_common_divisor(first, second) do
 
