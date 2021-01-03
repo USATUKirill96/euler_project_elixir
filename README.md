@@ -19,3 +19,4 @@
 1. [Наибольший простой делитель](lib/euler_project/problem_3.ex)
 1. [Наибольшее произведение-палиндром](lib/euler_project/problem_4.ex)
 1. [Наименьшее кратное](lib/euler_project/problem_5.ex)
+1. [Разность между суммой квадратов и квадратом суммы](lib/euler_project/problem_6.ex)
