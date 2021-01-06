@@ -21,3 +21,4 @@
 1. [Наименьшее кратное](lib/euler_project/problem_5.ex)
 1. [Разность между суммой квадратов и квадратом суммы](lib/euler_project/problem_6.ex)
 1. [10001-ое простое число](lib/euler_project/problem_7.ex)
+1. [Наибольшее произведение в последовательности](lib/euler_project/problem_8.ex)
