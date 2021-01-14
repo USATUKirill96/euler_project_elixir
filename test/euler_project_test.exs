@@ -8,4 +8,5 @@ defmodule EulerProjectTest do
   doctest Problem6
   doctest Problem7
   doctest Problem8
+  doctest Problem9
 end
